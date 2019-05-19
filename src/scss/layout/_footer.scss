@@ -1,0 +1,9 @@
+footer{
+    .wrapper__container{
+        padding: 0px 5px;
+
+        @include respond-above(sm){
+            padding: 0px;
+        }
+    }
+}
