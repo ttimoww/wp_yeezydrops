@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="wrapper news">
+<div class="wrapper page-news">
     <div class="wrapper__container">
         <h1 class="page-title"><?php the_title(); ?></h1>
         <div class="posts">

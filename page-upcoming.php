@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="wrapper upcoming">
+<div class="wrapper page-upcoming">
     <div class="wrapper__container">
     <h1 class="page-title"><?php the_title(); ?></h1>
         <div class="posts">
@@ -25,10 +25,6 @@
             <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>
         </div>
-
-        
-
-
     </div>
 </div>
 

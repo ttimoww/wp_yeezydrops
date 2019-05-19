@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="wrapper upcoming">
+<div class="wrapper page-past-drops">
     <div class="wrapper__container">
     <h1 class="page-title"><?php the_title(); ?></h1>
         <div class="posts">

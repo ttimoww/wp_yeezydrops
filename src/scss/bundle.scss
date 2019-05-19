@@ -15,11 +15,13 @@
 
 // Pages
 @import './pages/frontpage';
-@import './pages/upcoming';
-@import './pages/news';
+@import './pages/page-upcoming';
+@import './pages/page-past-drops';
+@import './pages/page-news';
 @import './pages/page';
 
 // Posts
-@import './posts/upcoming';
-@import './posts/news';
-@import './posts/past-drops';
+@import './posts/post-upcoming';
+@import './posts/post-news';
+@import './posts/post-past-drops';
+@import './posts/post';
