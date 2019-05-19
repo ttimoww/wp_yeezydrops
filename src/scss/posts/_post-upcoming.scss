@@ -1,5 +1,10 @@
 .post-upcoming{
     .post-upcoming__header{
+
+        h1{
+            margin: 5px 0px;
+        }
+
         .post-upcoming__image{
             height: 200px;
             width: 100%;
@@ -7,6 +12,10 @@
             background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
+        }
+
+        h2{
+            margin: 5px 0px;
         }
     }
 }

@@ -56,6 +56,8 @@
                         left: 0;
                         height: 100%;
                         width: 100%;
+                        padding: 10px;
+                        box-sizing: border-box;
                         background-color: rgba(211, 211, 211, 0);
                         opacity: 0;
                         transition: .3s background-color;

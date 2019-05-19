@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/dist/css/bundle.css" rel="stylesheet">
-    <title><?php echo get_bloginfo($show = 'name'); ?></title>
+    <title>Yeezy Drops : <?php echo the_title(); ?></title>
+    <?php wp_head(); ?>
 </head>
 <body>
 <header class="">

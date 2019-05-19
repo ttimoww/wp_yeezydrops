@@ -8,6 +8,7 @@
             <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
             <h2><?php the_title(); ?></h2>
+            <a href="<?php  get_the_permalink(); ?>">Read more</a>
             <p><?php the_date(); ?></p>
 
             <?php endwhile; 
