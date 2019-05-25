@@ -8,8 +8,8 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
-        max-width: 900px;
-        margin: 0 auto;
+        width: 100%;
+        padding: 0 !important;
 
         @include respond-above(sm){
             padding: 0px 10px;
@@ -26,8 +26,8 @@
             display: relative;
 
             @include respond-above(sm){
-                height: 250px;;
-                max-width: 250px;
+                height: 250px;
+                
             }
 
             a{

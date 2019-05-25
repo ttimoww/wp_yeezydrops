@@ -1,4 +1,89 @@
-.frontpage{
+div.frontpage{
+    div.wrapper__container{
+        div.jumbo{
+            width: 100%;
+            height: 200px; 
+            background-image: url(../images/homepage/jumbo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 130%;
+            
+            @include respond-above(sm){
+                background-size: 100%;
+                height: 300px;
+            }
+         }
+
+         div.latest-posts{
+             width: 100%;
+             display: grid;
+             grid-template-columns: 1fr;
+
+             @include respond-above(sm){
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                grid-column-gap: 20px;
+             }
+
+             div.latest-posts__post{
+                width: 100%;
+
+                h2{
+                    text-align: center;
+                    margin: 20px 0px 10px 0px;
+                }
+    
+                a{
+                    .post__image{
+                        position: relative;
+                        width: 100%;
+                        height: 200px;
+                        background-color: #ECEBE6;
+                        background-size: 200px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+    
+                        &:hover:after{
+                            background-color: rgba(211, 211, 211, .4);
+                            opacity: 1;
+                        }
+    
+                        &:after{
+                            content: attr(alt);
+                            color: #000;
+                            position: absolute;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            padding: 10px;
+                            box-sizing: border-box;
+                            background-color: rgba(211, 211, 211, 0);
+                            opacity: 0;
+                            transition: .3s background-color;
+                            transition: .3s opacity;
+    
+                        }
+    
+                    }
+    
+                }
+    
+                p.date{
+                    margin: 0;
+                    text-align: right;
+                    font-weight: bold;
+                    padding: 0 10px 0 0;
+                }
+            }
+         }
+    }
+
+
     .menu-homepage-container{
         ul{
             list-style: none;

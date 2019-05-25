@@ -10,7 +10,8 @@ div.wrapper{
     max-width: 1000px;
     box-sizing: border-box;
     margin: 40px auto 0px auto;
-    div.wrapper__container{
-        
-    }
+    
+    @media (min-width: 768px) and (max-width: 1000px){
+        padding: 0px 10px;
+      }
 }
